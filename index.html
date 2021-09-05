@@ -3,22 +3,43 @@
 <head>
     <link href="css/main.css" rel="stylesheet" type="text/css" media="all"/>
     <link href="css/reset.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Google</title>
 </head>
 <body>
-    <div class="image-container">
-        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Image of Google logo" srcset="">
+    <div>
+        <div id="nav-container">
+            <ul>
+                <li><a href="" class="href">About</a></li>
+                <li><a href="" class="href">Store</a></li>
+                <li style="float: right"><button type="button" id="signin">Sign in</button></li>
+                <li style="float: right"><a href="" class="href" id="apps"><i class="material-icons"><span class="material-icons-outlined">
+                    apps
+                    </span></i></a></li>
+                <li style= "float: right"><a href="" class="href">Images</a></li>
+                <li style="float: right"><a href="" class="href">Gmail</a></li>
+            </ul>
+        </div>
         <br>
+        <br>
+        <br>
+        <br>
+        <div class="image-container">
+            <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Image of Google logo" srcset="">
+            <br>
+        </div>
+        <br>
+        <div>
+            <form class="searchform">
+                <input type="text" class="searchinput" id="search" name="search"> <br> <br>
+                <input type="submit" value="Google Search">
+                <input type="submit" value="I'm Feeling Lucky">
+            </form>
+        </div>
     </div>
-    <br>
-    <form class="searchform">
-        <input type="text" class="searchinput" id="search" name="search"> <br> <br>
-        <input type="submit" value="Google Search">
-        <input type="submit" value="I'm Feeling Lucky">
-    </form>
-
 </body>
 </html>
