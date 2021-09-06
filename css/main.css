@@ -21,6 +21,22 @@
 #nav-container {
     /* border-block: solid;
     writing-mode: horizontal-tb; */
+    top: 0px;
+    left: 20px;
+}
+
+#footer-container {
+    bottom: 0;
+    position: fixed;
+    background-color: #f2f2f2;
+    width: 100%;
+
+}
+
+#footer-ul {
+    background-color: #dbd1d1;
+    bottom: 0px;
+    left: 0px;
 }
 
 ul {
